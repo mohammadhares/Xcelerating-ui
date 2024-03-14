@@ -25,22 +25,21 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Mission"
-                paragraph="Maximizing Efficiency: Simplifying your path, optimizing your savings journey."
+                title="For County Staff: Comprehensive Management at Your Fingertips"
+                paragraph="Our application is more than just a portal; it's a complete ecosystem designed to streamline the permit process from start to finish. County staff can now enjoy a suite of features that enhance productivity and decision-making:"
                 mb="44px"/>
               <div
                 className="mb-20 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Innovating for Impact" />
-                    <List text="Empowering County Governments" />
-                    <List text="Elevating Higher Education" />
+                    <List text="Intuitive Dashboard: Manage all permit requests through a user-friendly interface that provides a clear overview of pending, approved, and completed applications." />
+                    <List text="Efficient Processing: Our system simplifies the review and approval process, ensuring that permit requests are handled swiftly and effectively." />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Our Commitment" />
-                    <List text="The Future Awaits" />
+                    <List text="Document Management: Easily access, review, and store all necessary documents and forms associated with each permit application." />
+                    <List text="Reporting and Analytics: Gain valuable insights into permit trends, processing times, and staff performance with our advanced analytics tools." />
                   </div>
                 </div>
               </div>

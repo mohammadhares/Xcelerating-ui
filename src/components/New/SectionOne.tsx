@@ -25,22 +25,20 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Mission"
-                paragraph="Maximizing Efficiency: Simplifying your path, optimizing your savings journey."
+                title="For Our Citizens: Seamless Online Permit Requests"
+                paragraph="Gone are the days of waiting in long lines or navigating through complex paperwork for permit applications. Our customer portal is a one-stop solution that allows you to submit permit requests from the comfort of your home or on the go. With just a few clicks, you can:"
                 mb="44px"/>
               <div
                 className="mb-20 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Innovating for Impact" />
-                    <List text="Empowering County Governments" />
-                    <List text="Elevating Higher Education" />
+                    <List text="Apply Anytime, Anywhere: Submit your permit applications 24/7, without the need to visit a county office."  />
+                    <List text="Track Your Application: Stay updated with real-time notifications on the status of your permit request." />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Our Commitment" />
-                    <List text="The Future Awaits" />
+                    <List text="Secure Online Payments: Complete your applications swiftly with our secure, integrated online payment system." />
                   </div>
                 </div>
               </div>

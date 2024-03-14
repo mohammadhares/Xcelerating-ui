@@ -25,22 +25,22 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Mission"
-                paragraph="Maximizing Efficiency: Simplifying your path, optimizing your savings journey."
+                title="Why Choose Our Higher Education Enterprise Application?"
+                paragraph="Embrace the future of higher education with our enterprise application—where innovation meets efficiency, empowering your institution to excel in an ever-changing educational landscape."
                 mb="44px"/>
               <div
                 className="mb-20 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Innovating for Impact" />
-                    <List text="Empowering County Governments" />
-                    <List text="Elevating Higher Education" />
+                    <List text="Tailored for Higher Education: Specifically designed for the unique needs of colleges and universities, ensuring a perfect fit for your institution." />
+                    <List text="Integrated Approach: A unified solution that brings together all business units, fostering collaboration and streamlining operations." />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Our Commitment" />
-                    <List text="The Future Awaits" />
+                    <List text="User-Centric Design: Intuitive interfaces and user-friendly functionalities that prioritize ease of use for students, faculty, and administrators." />
+                    <List text="Data-Driven Insights: Harness the power of data with advanced analytics and reporting features, enabling strategic decisions and continuous improvement." />
+                    <List text="Scalable and Flexible: Adaptable to institutions of all sizes, with the flexibility to grow and evolve with your needs." />
                   </div>
                 </div>
               </div>

@@ -25,22 +25,21 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Mission"
-                paragraph="Maximizing Efficiency: Simplifying your path, optimizing your savings journey."
+                title="Comprehensive Functionality for Every Business Unit"
+                paragraph=""
                 mb="44px"/>
               <div
                 className="mb-20 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Innovating for Impact" />
-                    <List text="Empowering County Governments" />
-                    <List text="Elevating Higher Education" />
+                    <List text="Student System: Navigate the complexities of student administration with ease. Our robust student system offers seamless management of admissions, enrollment, academic records, and more, ensuring students and faculty alike can focus on what truly matters—education and growth."  />
+                    <List text="Financial System: Financial clarity at your fingertips. Achieve unprecedented control over your institution's finances with our intuitive financial system, designed to simplify accounting, budgeting, procurement, and financial reporting, empowering informed decision-making at every level." />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Our Commitment" />
-                    <List text="The Future Awaits" />
+                  <List text="Human Resources: Empower your workforce. Our human resources module is crafted to support the heart of your institution—its people. From recruitment and onboarding to benefits management and professional development, streamline your HR processes to attract, retain, and nurture top talent." />
+                  <List text="Financial Aid: Demystify financial aid administration. Our financial aid system provides comprehensive tools to manage scholarships, grants, loans, and work-study programs, making higher education more accessible to students and easing administrative burdens." />
                   </div>
                 </div>
               </div>

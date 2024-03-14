@@ -15,20 +15,20 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Country Governament",
-    path: "/about",
+    title: "County Governament",
+    path: "/new",
     newTab: false,
   },
   {
     id: 4,
     title: "Higher Education",
-    path: "/about",
+    path: "/education",
     newTab: false,
   },
   {
     id: 5,
     title: "Team",
-    path: "/blog",
+    path: "/team",
     newTab: false,
   },
   {

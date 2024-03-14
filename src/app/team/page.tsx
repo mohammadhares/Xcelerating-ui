@@ -1,5 +1,5 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
+import SingleBlog from "@/components/Team/SingleBlog";
+import blogData from "@/components/Team/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
@@ -14,8 +14,10 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Our Blogs"
-        description="Stay informed and inspired with Our Latest Blogs, your go-to source for insightful articles on industry trends, expert insights, and practical tips for growth."
+        pageName="Our Team"
+        description="The Architects of Innovation, 
+        At the heart of XCELERAT.ING lies a dynamic team of visionaries, each bringing a wealth of technical prowess and leadership excellence to the forefront of digital transformation. Our collective expertise is the cornerstone of our success, driving the creation of ERP solutions that not only meet but exceed the expectations of county governments and higher education institutions.
+        "
       />
 
       <section className="pb-[120px] pt-[120px]">
