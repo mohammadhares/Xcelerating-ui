@@ -18,7 +18,7 @@ const Blog = () => {
         description="Stay informed and inspired with Our Latest Blogs, your go-to source for insightful articles on industry trends, expert insights, and practical tips for growth."
       />
 
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[120px] pt-[120px]" style={{ marginTop: '-100px'}}>
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (

@@ -16,7 +16,7 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "County Governament",
-    path: "/new",
+    path: "/county-governament",
     newTab: false,
   },
   {
@@ -40,7 +40,7 @@ const menuData: Menu[] = [
   {
     id: 7,
     title: "Investers",
-    path: "/contact",
+    path: "/investors",
     newTab: false,
   },
   // {

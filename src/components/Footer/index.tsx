@@ -15,15 +15,17 @@ const Footer = () => {
                     src="/images/logo/logo-2.svg"
                     alt="logo"
                     className="w-full dark:hidden"
-                    width={140}
+                    width={50}
                     height={30}
+                    style={{ width: '120px', height: '120px'}}
                   />
                   <Image
                     src="/images/logo/logo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={140}
+                    width={50}
                     height={30}
+                    style={{ width: '120px', height: '120px'}}
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">

@@ -32,7 +32,7 @@ const AboutSectionTwo = () => {
                 Building Stronger Communities Together
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Our permit application platform is more than just software; it's a commitment to enhancing the lives of citizens and the efficiency of county governments. By simplifying processes and enabling online transactions, we're not just saving time and money; we're paving the way for more responsive, transparent, and engaged local governance.
+                Our permit application platform is more than just software; its a commitment to enhancing the lives of citizens and the efficiency of county governments. By simplifying processes and enabling online transactions, we are not just saving time and money; we are paving the way for more responsive, transparent, and engaged local governance.
 Join us in embracing the future of county government services. Together, we can build stronger, more connected communities.
 
                 </p>
