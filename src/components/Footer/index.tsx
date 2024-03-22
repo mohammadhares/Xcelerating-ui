@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-5 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo.svg"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={50}
@@ -28,10 +28,6 @@ const Footer = () => {
                     style={{ width: '120px', height: '120px'}}
                   />
                 </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Envisioning a world where efficiency meets economy, we empower institutions and county governments 
-                  to transcend the ordinary and achieve the extraordinary with simplicity at the core.
-                </p>
                 <div className="flex items-center">
                   <a
                     href="/"
@@ -145,7 +141,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -177,7 +173,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
@@ -194,20 +190,20 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
+                    {/* <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Terms of Use
-                    </Link>
+                    </Link> */}
                   </li>
                   <li>
-                    <Link
+                    {/* <Link
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About
-                    </Link>
+                    </Link> */}
                   </li>
                 </ul>
               </div>

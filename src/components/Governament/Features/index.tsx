@@ -12,7 +12,7 @@ const Features = () => {
             paragraph="In today's fast-paced world, the need for efficiency and accessibility in government services has never been more critical. Our innovative permit application platform is designed to revolutionize the way county governments manage permit requests, bringing unparalleled ease and efficiency to both citizens and staff."
             center
           />
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-1 lg:grid-cols-1">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}

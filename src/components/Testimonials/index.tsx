@@ -33,17 +33,17 @@ const Testimonials = () => {
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
+        {/* <SectionTitle
           title="What Our Users Says"
           paragraph="Our users rave about the transformative impact of our streamlined solutions, simplifying their paths to success."
           center
-        />
+        /> */}
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        {/* <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}
-        </div>
+        </div> */}
       </div>
       <div className="absolute right-0 top-5 z-[-1]">
         <svg

@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Xcelerating",
+  title: "Xcelerat.ing",
   description: "Simplifying Your Journey Maximizing Your Savings",
   // other metadata
 };
@@ -24,12 +24,12 @@ export default function Home() {
       <Hero />
       <Features />
       <Video />
-      <Brands />
-      <AboutSectionOne />
+      {/* <Brands /> */}
+      {/* <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
-      <Pricing />
-      <Blog />
+      <Testimonials /> */}
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
       <Contact />
     </>
   );
