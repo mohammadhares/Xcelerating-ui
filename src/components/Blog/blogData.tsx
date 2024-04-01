@@ -5,7 +5,7 @@ const blogData: Blog[] = [
     id: 1,
     title: "How Digital Permitting Solutions Are Transforming Local Government Services",
     paragraph:"In the landscape of local government services, the permitting process has traditionally been a linchpin of civic engagement and regulatory compliance...",
-    image: "https://xcelerating.wamasolution.com/images/blog/blog-01.jpg",
+    image: "../images/blog/blog-01.jpg",
     author: {
       name: "Hakim Mourad",
       image: "https://xcelerating.wamasolution.com/images/blog/author-02.png",
@@ -18,7 +18,7 @@ const blogData: Blog[] = [
     id: 2,
     title: "Challenges of Traditional Permitting Processes",
     paragraph:"The traditional permitting process is notoriously time-consuming. Applicants frequently encounter lengthy wait times, from the initial submission of documents to the final approval, which can span weeks or even months...",
-    image: "https://xcelerating.wamasolution.com/images/blog/blog-02.jpg",
+    image: "./images/blog/blog-02.jpg",
     author: {
       name: "Nabila Chy",
       image: "https://xcelerating.wamasolution.com/images/blog/author-01.png",
@@ -32,7 +32,7 @@ const blogData: Blog[] = [
     title: "Benefits of Digital Permitting Solutions",
     paragraph:
       "Digital permitting solutions represent a significant leap forward in the way local governments manage their permitting processes. These innovative systems are designed to replace...",
-    image: "https://xcelerating.wamasolution.com/images/blog/blog-03.jpg",
+    image: "./images/blog/blog-03.jpg",
     author: {
       name: "Jawad Kakar",
       image: "https://xcelerating.wamasolution.com/images/blog/author-03.png",

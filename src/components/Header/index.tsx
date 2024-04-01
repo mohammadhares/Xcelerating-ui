@@ -57,7 +57,7 @@ const Header = () => {
                 } `}>
                 <div className="flex">
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo.svg"
                   alt="logo"
                   width={10}
                   height={30}

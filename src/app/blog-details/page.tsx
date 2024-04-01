@@ -103,12 +103,12 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  In the landscape of local government services, the permitting process has traditionally been a linchpin of civic engagement and regulatory compliance...
+                  In the expansive landscape of local government services, the permitting process serves as a linchpin, pivotal not only for regulatory compliance but also as a conduit for civic engagement and community development. This multifaceted system encompasses a myriad of permits, ranging from those required for construction projects to licenses necessary for the operation of businesses. Yet, despite their indispensable nature, these vital services have historically languished within antiquated frameworks characterized by reliance on paper-based processes.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/blog/blog-details03.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
@@ -116,25 +116,19 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
+                  For generations, individuals navigating these bureaucratic channels have been met with a labyrinth of paperwork, necessitating cumbersome in-person interactions and burdensome manual record-keeping. Such antiquated methods, while once the norm, have become increasingly outdated in an era marked by rapid technological advancement and evolving user expectations.
+                    {/* <strong className="text-primary dark:text-white">
                       malesuada
-                    </strong>
+                    </strong> */}
                     proin libero nunc consequat interdum varius. Quam
                     pellentesque nec nam aliquam sem et tortor consequat.
                     Pellentesque adipiscing commodo elit at imperdiet.
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
+                  Indeed, the conventional approach to permitting, with its reliance on physical documentation and face-to-face interactions, has proven to be a double-edged sword. While it may foster a sense of familiarity, it also presents significant challenges that compromise both efficiency and user satisfaction. Delays, errors, and miscommunications often plague the process, frustrating applicants and hindering the timely realization of their projects and ventures.
+                    {/* <span className="text-primary underline dark:text-white">
                       Amet dictum sit amet justo
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                    </span> */}
                   </p>
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                     Digital marketplace for Ui/Ux designers.
@@ -160,10 +154,11 @@ const BlogDetailsPage = () => {
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                    Furthermore, digital permitting systems have the potential to generate valuable data insights that can inform policy decisions,
+                     optimize resource allocation, and enhance overall service delivery. By harnessing the power of data analytics, 
+                     local governments can gain deeper insights into trends, patterns,
+                     and areas for improvement within the permitting process,
+                     thereby fostering continuous innovation and improvement.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -307,9 +302,11 @@ const BlogDetailsPage = () => {
                     </span>
                   </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  In essence, the transformation of the permitting process represents more than just a technological upgrade;
+                  it is a paradigm shift towards a more agile, responsive, and citizen-centric approach to governance.
+                  By leveraging technology to modernize and optimize permitting processes,
+                  local governments can unlock new opportunities for economic growth, community development,
+                  and sustainable progress.
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">

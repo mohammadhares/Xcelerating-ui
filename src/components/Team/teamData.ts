@@ -25,8 +25,8 @@ export const TeamData = [
   },
   {
     id: 5, 
-    title: 'Collaboration at Its Core',
-    description: "Collaboration is the lifeblood of our operations. We believe that the most groundbreaking solutions are born from the synergy of diverse minds working towards a common goal. Our team members, from developers to project managers, work hand-in-hand, ensuring that every project benefits from a multiplicity of perspectives and expertise.",
+    title: 'Commitment to Excellence',
+    description: "Above all, our team is united by a shared commitment to excellence and innovation. We are not just developers of software; we are architects of the future, dedicated to enhancing the way county governments and educational institutions serve their communities and students.",
     image: '../images/team/p3.jpg',
   },
 ]

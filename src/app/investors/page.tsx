@@ -67,7 +67,7 @@ const Investors = () => {
                       href="/contact"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      Get In Touch
+                      Reach Us
                     </a>
                   </div>
                 </div>
@@ -77,10 +77,11 @@ const Investors = () => {
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                      <img
-                        src="https://xcelerating.wamasolution.com/images/blog/blog-details-02.jpg"
+                    <Image
+                        src="/images/investors/invest01.jpg"
                         alt="image"
-                        className="fill object-cover object-center"
+                        fill
+                        className="object-cover object-center"
                       />
                     </div>
                   </div>
