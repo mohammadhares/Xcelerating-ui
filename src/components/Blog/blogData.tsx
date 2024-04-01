@@ -8,7 +8,7 @@ const blogData: Blog[] = [
     image: "../images/blog/blog-01.jpg",
     author: {
       name: "Hakim Mourad",
-      image: "https://xcelerating.wamasolution.com/images/blog/author-02.png",
+      image: "https://xcelerating.tlso.com.af/images/blog/author-02.png",
       designation: "Graphic Designer",
     },
     tags: ["creative"],
@@ -21,7 +21,7 @@ const blogData: Blog[] = [
     image: "./images/blog/blog-02.jpg",
     author: {
       name: "Nabila Chy",
-      image: "https://xcelerating.wamasolution.com/images/blog/author-01.png",
+      image: "https://xcelerating.tlso.com.af/images/blog/author-01.png",
       designation: "Content Writer",
     },
     tags: ["Technology"],
@@ -35,7 +35,7 @@ const blogData: Blog[] = [
     image: "./images/blog/blog-03.jpg",
     author: {
       name: "Jawad Kakar",
-      image: "https://xcelerating.wamasolution.com/images/blog/author-03.png",
+      image: "https://xcelerating.tlso.com.af/images/blog/author-03.png",
       designation: "Manager",
     },
     tags: ["design"],

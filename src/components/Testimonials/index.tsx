@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
     content:"Streamlining Success has been a game-changer for me! The simplified approach not only made my journey smoother but also maximized my savings. A must-have companion for anyone aiming for success without unnecessary complications.",
-    image: "https://xcelerating.wamasolution.com/images/testimonials/auth-01.png",
+    image: "https://xcelerating.tlso.com.af/images/testimonials/auth-01.png",
     star: 5,
   },
   {
@@ -16,7 +16,7 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:"I can't express enough how Streamlining Success revolutionized my business strategy. The optimization efforts not only saved me valuable time but also significantly enhanced my financial outcomes. Grateful to have found a partner in success simplification.",
-    image: "https://xcelerating.wamasolution.com/images/testimonials/auth-02.png",
+    image: "https://xcelerating.tlso.com.af/images/testimonials/auth-02.png",
     star: 5,
   },
   {
@@ -24,7 +24,7 @@ const testimonialData: Testimonial[] = [
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
     content:"The impact of Streamlining Success on my personal goals exceeded my expectations. Navigating complexities became a breeze, and the substantial savings were a pleasant surprise. This platform is a gem for those seeking a straightforward path to success!",
-    image: "https://xcelerating.wamasolution.com/images/testimonials/auth-03.png",
+    image: "https://xcelerating.tlso.com.af/images/testimonials/auth-03.png",
     star: 5,
   },
 ];

@@ -26,7 +26,7 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <img src="https://xcelerating.wamasolution.com/images/video/video.jpg" alt="video image" className="fill" />
+                <img src="https://xcelerating.tlso.com.af/images/video/video.jpg" alt="video image" className="fill" />
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"

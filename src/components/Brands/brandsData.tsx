@@ -38,8 +38,8 @@ const brandsData: Brand[] = [
   },
   {
     id: 3,
-    name: "Wama Solution",
-    href: "https://wamasolution.com",
+    name: "Xcelerat.ing",
+    href: "https://xcelerating.tlso.com.af",
     image: "",
     imageLight: "",
   }
