@@ -45,12 +45,12 @@ const AboutSectionOne = () => {
                 </div>
               </div>
               <div className="mt-10">
-              <Link
+              {/* <Link
                   href="/contact" 
                   className="rounded-lg bg-primary px-8 py-4 text-base font-semibold
                      text-white duration-300 ease-in-out hover:bg-primary/80">
                   Reach Us
-                </Link>
+                </Link> */}
               </div>
             </div>
 
