@@ -54,12 +54,12 @@ const menuData: Menu[] = [
   //       path: "/about",
   //       newTab: false,
   //     },
-      {
-        id: 42,
-        title: "Reach Us",
-        path: "/contact",
-        newTab: false,
-      },
+      // {
+      //   id: 42,
+      //   title: "Reach Us",
+      //   path: "/contact",
+      //   newTab: false,
+      // },
       // {
       //   id: 43,
       //   title: "Blog Grid Page",

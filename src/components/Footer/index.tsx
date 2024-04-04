@@ -145,22 +145,7 @@ const Footer = () => {
                       Investor
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/team"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Team
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
-                    </Link>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
@@ -211,6 +196,22 @@ const Footer = () => {
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Reach Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/team"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Team
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/about"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      About
                     </Link>
                   </li>
                   <li>
