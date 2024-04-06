@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Reach Us",
+  title: "Reach Us | XCELERAT.ING",
   description: "Our support team will get back to you ASAP via email ",
   // other metadata
 };

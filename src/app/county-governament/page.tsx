@@ -8,7 +8,7 @@ import { Metadata } from "next";
 import Features from "@/components/Governament/Features";
 
 export const metadata: Metadata = {
-  title: "County Government",
+  title: "County Government | XCELERAT.ING",
   description: "Empowering Communities, Simplifying Solutions",
 };
 

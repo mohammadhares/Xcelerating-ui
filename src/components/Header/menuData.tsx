@@ -90,12 +90,12 @@ const menuData: Menu[] = [
   //       path: "/signup",
   //       newTab: false,
   //     },
-  //     {
-  //       id: 48,
-  //       title: "Error Page",
-  //       path: "/error",
-  //       newTab: false,
-  //     },
+      // {
+      //   id: 48,
+      //   title: "Error Page",
+      //   path: "/error",
+      //   newTab: false,
+      // },
   //   ],
   // },
 ];

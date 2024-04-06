@@ -6,8 +6,8 @@ import { Metadata } from "next";
 import TeamSection from "@/components/Team/TeamSection";
 
 export const metadata: Metadata = {
-  title: "Team Page | Welcome to Xcelerat.ing",
-  description: "This is Blog Page for Startup Nextjs Template",
+  title: "Team | XCELERAT.ING",
+  description: "Simplifying Your Journey Maximizing Your Savings",
   // other metadata
 };
 

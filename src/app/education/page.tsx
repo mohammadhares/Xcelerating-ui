@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import Features from "@/components/Education/Features";
 
 export const metadata: Metadata = {
-  title: "Higher Education",
+  title: "Higher Education | XCELERAT.ING",
   description: "Empowering Academic Excellence with Integrated Solutions.",
 }
 

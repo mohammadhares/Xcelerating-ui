@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Xcelerat.ing",
+  title: "XCELERAT.ING",
   description: "Simplifying Your Journey Maximizing Your Savings",
   // other metadata
 };

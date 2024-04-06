@@ -68,7 +68,7 @@ const Header = () => {
                     height={30}
                     className="hidden dark:block  w-10 relative bottom-1"
                   />
-                  <h1 className="font-bold dark:text-white text-bg-color-dark relative top-1 left-2 text-lg">Xcelerat.ing</h1>
+                  <h1 className="font-bold dark:text-white text-bg-color-dark relative top-1 left-2 text-lg">XCELERAT.ING</h1>
                 </div>
               </Link>
             </div>

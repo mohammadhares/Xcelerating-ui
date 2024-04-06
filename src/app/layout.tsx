@@ -3,11 +3,24 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import { NextFont } from "next/dist/compiled/@next/font"; 
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  weight: '400',
+  style: 'normal',
+  display: 'swap',
+  subsets: ['latin']
+  });
+
+// Define a custom interface extending NextFont
+interface CustomFont extends NextFont {
+  className: string; // Add className property
+}
+// Cast roboto to CustomFont to ensure it has the className property
+const customRoboto = roboto as CustomFont;
 
 export default function RootLayout({
   children,
@@ -18,7 +31,7 @@ export default function RootLayout({
     <html suppressHydrationWarning lang="en">
       <head />
       
-      <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+      <body className={`bg-[#FCFCFC] dark:bg-black ${customRoboto.className}`}>
         <Providers>
           <Header />
           {children}
