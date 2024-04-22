@@ -32,17 +32,17 @@ const AboutSectionTwo = () => {
                   Our Vision
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Envisioning a world where efficiency meets economy, we empower institutions and county governments to transcend the ordinary and achieve the extraordinary with simplicity at the core.
+                Envisioning a world where efficiency meets economy, we empower institutions and county governments to transcend the ordinary and achieve the extraordinary with simplicity at the core.
                 </p>
               </div>
-              <div className="mb-12">
+              {/* <div className="mb-12">
                 <Link
                   href="/contact"
                   className="rounded-lg bg-primary px-8 py-4 text-base font-semibold
                      text-white duration-300 ease-in-out hover:bg-primary/80">
                   Reach Us
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

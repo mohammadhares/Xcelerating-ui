@@ -26,7 +26,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Our Mission"
-                paragraph="Empowering Your Path to Success: Uncomplicating Your Journey, Optimizing Your Savings."
+                paragraph="Maximizing Efficiency: Simplifying your path, optimizing your savings journey."
                 mb="44px"/>
               <div
                 className="mb-20 max-w-[570px] lg:mb-0"
@@ -45,12 +45,6 @@ const AboutSectionOne = () => {
                 </div>
               </div>
               <div className="mt-10">
-              <Link
-                  href="/contact" 
-                  className="rounded-lg bg-primary px-8 py-4 text-base font-semibold
-                     text-white duration-300 ease-in-out hover:bg-primary/80">
-                  Reach Us
-                </Link>
               </div>
             </div>
 

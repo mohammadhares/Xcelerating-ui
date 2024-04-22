@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
+  output: 'export',
   images: {
     domains: ["localhost"],
     remotePatterns: [
@@ -9,6 +11,9 @@ const nextConfig = {
         port: "",
       },
     ],
+  },
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
   },
 };
 
