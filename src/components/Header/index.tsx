@@ -55,14 +55,14 @@ const Header = () => {
                   } `}>
                 <div className="flex">
                   <Image
-                    src="/images/logo/logo-1.svg"
+                    src="./images/logo/logo-1.svg"
                     alt="logo"
                     width={10}
                     height={30}
                     className="w-10 relative bottom-1 dark:hidden"
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="./images/logo/logo.svg"
                     alt="logo"
                     width={10}
                     height={30}
