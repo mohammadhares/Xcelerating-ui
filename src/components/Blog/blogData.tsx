@@ -8,7 +8,7 @@ const blogData: Blog[] = [
     image: "./images/blog/blog-01.jpg",
     author: {
       name: "Hakim Mourad",
-      image: "../images/blog/author-02.png",
+      image: "./images/blog/author-02.png",
       designation: "Graphic Designer",
     },
     tags: ["creative"],
@@ -45,7 +45,7 @@ const blogData: Blog[] = [
     image: "./images/blog/blog-03.jpg",
     author: {
       name: "Jawad Kakar",
-      image: "/images/blog/author-03.png",
+      image: "./images/blog/author-03.png",
       designation: "Manager",
     },
     tags: ["design"],
