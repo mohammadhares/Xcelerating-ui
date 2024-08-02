@@ -17,7 +17,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="County Government"
-        description="Empowering Communities, Simplifying Solutions."
+        description="In today's fast-paced world, the need for efficiency and accessibility in government services has never been more critical. Our innovative permit application platform is designed to revolutionize the way county governments manage permit requests, bringing unparalleled ease and efficiency to both citizens and staff."
       />
       <Features />
     </>

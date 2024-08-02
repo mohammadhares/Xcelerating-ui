@@ -46,7 +46,7 @@ const Investors = () => {
                         </span>
                         12 Jan 2024
                       </p>
-                      <p className="flex items-center text-base font-medium text-body-color">
+                      {/* <p className="flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
                             width="20"
@@ -59,7 +59,7 @@ const Investors = () => {
                           </svg>
                         </span>
                         35
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="mb-5">

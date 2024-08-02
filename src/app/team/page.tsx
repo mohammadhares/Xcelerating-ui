@@ -16,7 +16,7 @@ const Blog = () => {
     <>
       <Breadcrumb
         pageName="Our Team"
-        description="The Architects of Innovation"
+        description="We focus on markets where technology, innovation, and capital can unlock long-term value"
       />
       <TeamSection />
     </>

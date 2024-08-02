@@ -8,6 +8,7 @@ import { Metadata } from "next";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import blogData from "@/components/Blog/blogData";
+import CommentSection from "@/components/Blog/CommentSection";
 
 // export const metadata: Metadata = {
 //   title: "Blog Details | Free Next.js Template for Startup and SaaS",
@@ -94,7 +95,7 @@ const BlogDetailsPage = () => {
                         </span>
                         50
                       </p>
-                      <p className="flex items-center text-base font-medium text-body-color">
+                      {/* <p className="flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
                             width="20"
@@ -107,7 +108,7 @@ const BlogDetailsPage = () => {
                           </svg>
                         </span>
                         35
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="mb-5">
@@ -145,6 +146,7 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                 </div>
+                <CommentSection/>
               </div>
             </div>
           </div>
