@@ -49,10 +49,10 @@
 // InvestorSection.tsx
 
 const investors = [
-  { name: "Investor One", image: "/images/team/investor1.jpg" },
-  { name: "Investor Two", image: "/images/team/investor2.jpg" },
-  { name: "Investor Three", image: "/images/team/investor3.jpg" },
-  { name: "Investor Four", image: "/images/team/investor2.jpg" },
+  { name: "Investor One", image: "./images/team/investor1.jpg" },
+  { name: "Investor Two", image: "./images/team/investor2.jpg" },
+  { name: "Investor Three", image: "./images/team/investor3.jpg" },
+  { name: "Investor Four", image: "./images/team/investor2.jpg" },
 ];
 
 const InvestorSection = () => {
