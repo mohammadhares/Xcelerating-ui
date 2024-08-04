@@ -72,7 +72,7 @@ const Investors = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <img
-                        src="./images/investors/invest01.jpg"
+                        src="https://xcelerat.ing/images/investors/invest01.jpg"
                         alt="image"
                         className="object-cover object-center"
                       />

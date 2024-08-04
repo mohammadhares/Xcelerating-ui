@@ -39,7 +39,7 @@ const brandsData: Brand[] = [
   {
     id: 3,
     name: "XCELERAT.ING",
-    href: "https://xcelerating.tlso.com.af",
+    href: "https://xcelerat.ing/",
     image: "",
     imageLight: "",
   }
