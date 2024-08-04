@@ -1,14 +1,15 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import NewsLatterBoxfooter from "./NewsLatterBoxfooter";
 
 const Footer = () => {
   return (
     <>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+          <div className="-mx-4 flex flex-wrap items-start">
+            <div className="w-full px-4 md:w-1/2 lg:w-3/12 xl:w-3/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-5 inline-block">
                   <Image
@@ -17,7 +18,7 @@ const Footer = () => {
                     className="w-full dark:hidden"
                     width={50}
                     height={30}
-                    style={{ width: '120px', height: '120px'}}
+                    style={{ width: "120px", height: "120px" }}
                   />
                   <Image
                     src="./images/logo/logo.svg"
@@ -25,7 +26,7 @@ const Footer = () => {
                     className="hidden w-full dark:block"
                     width={50}
                     height={30}
-                    style={{ width: '120px', height: '120px'}}
+                    style={{ width: "120px", height: "120px" }}
                   />
                 </Link>
                 <div className="flex items-center">
@@ -145,7 +146,6 @@ const Footer = () => {
                       Investor
                     </Link>
                   </li>
-                 
                 </ul>
               </div>
             </div>
@@ -184,7 +184,7 @@ const Footer = () => {
               </div>
             </div> */}
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
@@ -232,6 +232,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-3/12 xl:w-3/12">
+              <NewsLatterBoxfooter />
             </div>
           </div>
 

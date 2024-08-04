@@ -14,14 +14,14 @@ const SectionTitle = ({
   return (
     <>
       <div
-        className={`w-full ${center ? "mx-auto text-center" : ""}`}
+        className="w-full ml-0"
         style={{ maxWidth: width, marginBottom: mb }}>
-        <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+        <h1 className="mb-2 text-2xl font-bold !leading-tight text-black dark:text-white sm:text-3xl">
           {title}
-        </h2>
+        </h1>
       </div>
       <p  
-        style={{ width: '820px', margin: '-80px auto 50px', marginTop: '-80px'}}
+        style={{ width: '820px', marginLeft: '0px', marginTop: '-80px'}}
         className="text-base !leading-relaxed text-body-color  mb-20 mt-0">
           {paragraph}
         </p>

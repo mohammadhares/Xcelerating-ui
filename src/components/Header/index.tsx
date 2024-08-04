@@ -153,20 +153,20 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
+                {/* <Link
                   href="/signin"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover hidden 
                   rounded-lg bg-primary px-10 py-3 text-base font-medium text-white 
                   transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9">
                   Sign In
-                </Link>
-                <Link
+                </Link> */}
+                {/* <Link
                   href="/contact"
                   className="ease-in-up ml-1 shadow-btn hover:shadow-btn-hover hidden 
                   rounded-lg bg-primary px-10 py-3 text-base font-medium text-white 
                   transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9">
                   Reach Us
-                </Link>
+                </Link> */}
                 <div>
                   <ThemeToggler />
                 </div>
