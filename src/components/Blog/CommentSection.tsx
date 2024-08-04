@@ -35,7 +35,7 @@ const CommentSection = () => {
           type="text"
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
-          className="w-full rounded-lg outline-none border p-2"
+          className="w-full rounded-lg bg-dark outline-none border p-2"
           placeholder="Write a comment..."
         />
         <button

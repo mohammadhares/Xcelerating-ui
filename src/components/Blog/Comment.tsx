@@ -26,7 +26,7 @@ const Comment = ({ comment, handleReply }) => {
             type="text"
             value={reply}
             onChange={(e) => setReply(e.target.value)}
-            className="w-full rounded-lg border p-2"
+            className="w-full bg-dark rounded-lg border p-2"
             placeholder="Write a reply..."
           />
           <button
