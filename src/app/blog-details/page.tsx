@@ -131,7 +131,7 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                 </div>
-                <CommentSection/>
+                {/* <CommentSection/> */}
               </div>
             </div>
           </div>

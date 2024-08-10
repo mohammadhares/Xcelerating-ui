@@ -6,14 +6,16 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Roboto } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
-import { NextFont } from "next/dist/compiled/@next/font"; 
+import { NextFont } from "next/dist/compiled/@next/font";
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const roboto = Roboto({
   weight: '400',
   style: 'normal',
   display: 'swap',
   subsets: ['latin']
-  });
+});
 
 // Define a custom interface extending NextFont
 interface CustomFont extends NextFont {
@@ -30,8 +32,19 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      
+
       <body className={`bg-[#FCFCFC] dark:bg-black ${customRoboto.className}`}>
+        <ToastContainer
+          position="bottom-right"
+          autoClose={2000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          pauseOnHover
+          theme="dark"
+        />
         <Providers>
           <Header />
           {children}
@@ -43,4 +56,5 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";
+import { Providers } from "./providers"; import { ToastContainer } from "react-toastify";
+
